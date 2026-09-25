@@ -1,0 +1,31 @@
+TYPE: multiple_choice
+QUESTION: What is the capital of Serbia?
+A: Belgrade
+B: Novi Sad
+C: Niš
+D: Kragujevac
+ANSWER: A
+
+TYPE: multiple_choice
+QUESTION: Which river flows through Belgrade?
+A: Thames
+B: Danube
+C: Seine
+D: Rhine
+ANSWER: B
+
+TYPE: multiple_choice
+QUESTION: What is the largest continent?
+A: Australia
+B: Africa
+C: Asia
+D: Europe
+ANSWER: C
+
+TYPE: multiple_choice
+QUESTION: What is the capital of France?
+A: Toulouse
+B: Marseille
+C: Nice
+D: Paris
+ANSWER: D
