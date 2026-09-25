@@ -1,33 +1,32 @@
 from pathlib import Path
+from quizz import load_questions
 
 questions_folder = Path(__file__).parent / "questions"
 geography_file = questions_folder / "geography.txt"
 
-with open(geography_file, "r", encoding="utf-8") as file:
-    content = file.read()
+quiz = load_questions(geography_file)
 
-questions = content.split("\n\n")  # split the content into individual questions based on double newlines
+def run_quiz(quiz):
+    score = 0
 
-quiz = []
+    for question in quiz:
+        print(question["QUESTION"])
+        print("A)", question["A"])
+        print("B)", question["B"])
+        print("C)", question["C"])
+        print("D)", question["D"])
 
-for question in questions:  # iterate through each question
-    if not question.strip():
-        continue
+        user_answer = input("Your answer: ").upper().strip()
+        while user_answer not in ["A", "B", "C", "D"]:
+            print("Invalid input. Please enter A, B, C, or D.")
+            user_answer = input(f"{question['QUESTION']} (A/B/C/D): ").upper().strip()
+        if user_answer == question["ANSWER"]:
+            print("Correct! 🎉")
+            score += 1
+        else:
+            print("Wrong!")
+            print("Correct answer:", question["ANSWER"])        
 
-    data = {}
-
-    for line in question.splitlines():
-        if not line.strip():
-            continue
-        key = line.split(":", 1)[0]
-        value = line.split(":", 1)[1].strip()
-        data[key] = value
-
-    quiz.append(data)
-
-for question in quiz:
-    print(question["QUESTION"])
-    print("A)", question["A"])
-    print("B)", question["B"])
-    print("C)", question["C"])
-    print("D)", question["D"])
+    return score
+final_score = run_quiz(quiz)
+print(f"Your score is: {final_score}/{len(quiz)}")
