@@ -1,32 +1,22 @@
 from pathlib import Path
 from quizz import load_questions
+from game import run_quiz
 
 questions_folder = Path(__file__).parent / "questions"
-geography_file = questions_folder / "geography.txt"
+quiz_files = sorted(questions_folder.glob("*.txt"))
+for number, file in enumerate(quiz_files, start=1):
+    print(number, file.stem.capitalize())
 
-quiz = load_questions(geography_file)
+while True:
+    try:
+        choice = int(input("Choose a subject: "))
+        if not 1 <= choice <= len(quiz_files):
+            raise ValueError()
+        break
+    except ValueError:
+        print("Invalid choice. Please enter a number corresponding to the subjects listed.")
 
-def run_quiz(quiz):
-    score = 0
+quiz = load_questions(quiz_files[choice - 1])
 
-    for question in quiz:
-        print(question["QUESTION"])
-        print("A)", question["A"])
-        print("B)", question["B"])
-        print("C)", question["C"])
-        print("D)", question["D"])
-
-        user_answer = input("Your answer: ").upper().strip()
-        while user_answer not in ["A", "B", "C", "D"]:
-            print("Invalid input. Please enter A, B, C, or D.")
-            user_answer = input(f"{question['QUESTION']} (A/B/C/D): ").upper().strip()
-        if user_answer == question["ANSWER"]:
-            print("Correct! 🎉")
-            score += 1
-        else:
-            print("Wrong!")
-            print("Correct answer:", question["ANSWER"])        
-
-    return score
 final_score = run_quiz(quiz)
 print(f"Your score is: {final_score}/{len(quiz)}")
