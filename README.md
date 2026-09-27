@@ -16,14 +16,14 @@ for my kids.
 - New subjects can be added without changing the Python code
 
 ## Project Structure
-...
+```
 quizz/
 ├── main.py
 ├── game.py
 ├── quizz.py
 └── questions/
     └── geography.txt
-...
+```
 ## Running the Program
 
 Run:
