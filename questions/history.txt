@@ -1,0 +1,79 @@
+TYPE: multiple_choice
+QUESTION: Which ancient civilization built the pyramids of Giza?
+A: Romans
+B: Egyptians
+C: Vikings
+D: Celts
+ANSWER: B
+
+TYPE: multiple_choice
+QUESTION: Who was the first emperor of the Roman Empire?
+A: Augustus
+B: Julius Caesar
+C: Nero
+D: Constantine
+ANSWER: A
+
+TYPE: multiple_choice
+QUESTION: In which country did the Renaissance begin?
+A: France
+B: England
+C: Italy
+D: Spain
+ANSWER: C
+
+TYPE: multiple_choice
+QUESTION: Which city was buried by the eruption of Mount Vesuvius in 79 AD?
+A: Athens
+B: Pompeii
+C: Sparta
+D: Carthage
+ANSWER: B
+
+TYPE: multiple_choice
+QUESTION: Who was the first person to walk on the Moon?
+A: Yuri Gagarin
+B: Buzz Aldrin
+C: Neil Armstrong
+D: John Glenn
+ANSWER: C
+
+TYPE: multiple_choice
+QUESTION: Which event began in 1789?
+A: The French Revolution
+B: The American Civil War
+C: The First World War
+D: The Industrial Revolution
+ANSWER: A
+
+TYPE: multiple_choice
+QUESTION: Which ancient people developed democracy in Athens?
+A: Greeks
+B: Romans
+C: Egyptians
+D: Persians
+ANSWER: A
+
+TYPE: multiple_choice
+QUESTION: Which explorer's 1492 voyage crossed the Atlantic from Spain to the Americas?
+A: Ferdinand Magellan
+B: James Cook
+C: Marco Polo
+D: Christopher Columbus
+ANSWER: D
+
+TYPE: multiple_choice
+QUESTION: Which war lasted from 1914 to 1918?
+A: The Crimean War
+B: The First World War
+C: The Second World War
+D: The American Civil War
+ANSWER: B
+
+TYPE: multiple_choice
+QUESTION: Which invention is Johannes Gutenberg famous for introducing to Europe?
+A: Steam engine
+B: Telescope
+C: Printing press
+D: Compass
+ANSWER: C

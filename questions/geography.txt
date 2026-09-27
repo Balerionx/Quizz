@@ -29,3 +29,51 @@ B: Marseille
 C: Nice
 D: Paris
 ANSWER: D
+
+TYPE: multiple_choice
+QUESTION: Which is the largest ocean on Earth?
+A: Atlantic Ocean
+B: Indian Ocean
+C: Pacific Ocean
+D: Arctic Ocean
+ANSWER: C
+
+TYPE: multiple_choice
+QUESTION: Which country is the largest in the world by land area?
+A: Canada
+B: China
+C: United States
+D: Russia
+ANSWER: D
+
+TYPE: multiple_choice
+QUESTION: On which continent is Egypt located?
+A: Asia
+B: Africa
+C: Europe
+D: South America
+ANSWER: B
+
+TYPE: multiple_choice
+QUESTION: What is the capital of France?
+A: Madrid
+B: Rome
+C: Paris
+D: Brussels
+ANSWER: C
+
+TYPE: multiple_choice
+QUESTION: Which mountain is the highest above sea level?
+A: Mount Everest
+B: Mont Blanc
+C: Mount Kilimanjaro
+D: Mount Fuji
+ANSWER: A
+
+TYPE: multiple_choice
+QUESTION: Which river flows through London?
+A: Danube
+B: Seine
+C: Thames
+D: Rhine
+ANSWER: C

@@ -1,0 +1,79 @@
+TYPE: multiple_choice
+QUESTION: What is the basic unit of life?
+A: Cell
+B: Organ
+C: Tissue
+D: Bone
+ANSWER: A
+
+TYPE: multiple_choice
+QUESTION: Which organ pumps blood around the human body?
+A: Liver
+B: Heart
+C: Lung
+D: Kidney
+ANSWER: B
+
+TYPE: multiple_choice
+QUESTION: Which gas do humans need for cellular respiration?
+A: Nitrogen
+B: Carbon dioxide
+C: Oxygen
+D: Helium
+ANSWER: C
+
+TYPE: multiple_choice
+QUESTION: Which part of a plant usually absorbs water from the soil?
+A: Flower
+B: Leaf
+C: Fruit
+D: Root
+ANSWER: D
+
+TYPE: multiple_choice
+QUESTION: What process do plants use to make sugars using light energy?
+A: Digestion
+B: Photosynthesis
+C: Respiration
+D: Fermentation
+ANSWER: B
+
+TYPE: multiple_choice
+QUESTION: Which organs are primarily responsible for breathing in humans?
+A: Kidneys
+B: Lungs
+C: Stomach
+D: Pancreas
+ANSWER: B
+
+TYPE: multiple_choice
+QUESTION: Which blood cells primarily transport oxygen around the body?
+A: Red blood cells
+B: White blood cells
+C: Platelets
+D: Nerve cells
+ANSWER: A
+
+TYPE: multiple_choice
+QUESTION: Which molecule carries hereditary information in most living organisms?
+A: Glucose
+B: DNA
+C: Water
+D: Hemoglobin
+ANSWER: B
+
+TYPE: multiple_choice
+QUESTION: Animals that eat both plants and other animals are called what?
+A: Herbivores
+B: Carnivores
+C: Omnivores
+D: Producers
+ANSWER: C
+
+TYPE: multiple_choice
+QUESTION: Which organ is the main control center of the human nervous system?
+A: Heart
+B: Brain
+C: Liver
+D: Stomach
+ANSWER: B

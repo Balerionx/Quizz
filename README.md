@@ -23,6 +23,8 @@ quizz/
 ├── quizz.py
 └── questions/
     └── geography.txt
+    └── biology.txt
+    └── history.txt
 ```
 ## Running the Program
 
